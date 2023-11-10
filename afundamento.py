@@ -70,10 +70,10 @@ for bairro, cor in bairros.items():
     marker_layer.add_to(mapa)
 
     # Adiciona polígonos
-    gdf_bairro = gdf[gdf['Bairro'] == bairro].copy()
-    folium.GeoJson(gdf_bairro,
-                   name=bairro,
-                   style_function=lambda x, cor=cor: {'fillColor': cor, 'color': cor, 'weight': 1}).add_to(mapa)
+#    gdf_bairro = gdf[gdf['Bairro'] == bairro].copy()
+#    folium.GeoJson(gdf_bairro,
+#                   name=bairro,
+#                   style_function=lambda x, cor=cor: {'fillColor': cor, 'color': cor, 'weight': 1}).add_to(mapa)
 
 folium.LayerControl().add_to(mapa)
 
