@@ -60,7 +60,7 @@ for year in years:
     marker_layer.add_to(mapa)
 
 # Adicione a camada de marcação ao mapa
-#folium.LayerControl().add_to(mapa)
+folium.LayerControl().add_to(mapa)
 
 st.title("Zélia Matos")
 st.write("Mapa")
