@@ -75,7 +75,7 @@ for bairro, cor in bairros.items():
                    name=bairro,
                    style_function=lambda x, cor=cor: {'fillColor': cor, 'color': cor, 'weight': 1}).add_to(mapa)
 
-folium.LayerControl().add_to(mapa)
+#folium.LayerControl().add_to(mapa)
 
 # Coluna direita para o mapa
 st.markdown("## Mapa:")
