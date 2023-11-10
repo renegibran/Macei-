@@ -34,9 +34,6 @@ def create_marker_layer(df, name):
 # Adicione polígonos para diferentes bairros
 mapa = folium.Map(location=(-9.60, -35.72), zoom_start=12.7, tiles='cartodbpositron')
 
-# Adicione a camada de marcação ao mapa
-folium.LayerControl().add_to(mapa)
-
 bairros = {
     'Bebedouro': 'blue',
     'Chã de Bebedouro': 'red',
@@ -62,6 +59,8 @@ for year in years:
     marker_layer = create_marker_layer(df_year, f'Marcadores {year}')
     marker_layer.add_to(mapa)
 
+# Adicione a camada de marcação ao mapa
+folium.LayerControl().add_to(mapa)
 
 
 st.title("Zélia Matos")
