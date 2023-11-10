@@ -1,0 +1,9 @@
+altair
+numpy
+pandas
+pydeck
+streamlit
+folium
+streamlit_folium
+geopandas
+openpyxl
