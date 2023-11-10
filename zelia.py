@@ -67,4 +67,3 @@ st.write("Mapa")
 
 st_data = st_folium(mapa, width=700)
 
-mapa
