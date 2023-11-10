@@ -49,7 +49,7 @@ for bairro, cor in bairros.items():
     gdf_bairro = gdf[gdf['Bairro'] == bairro].copy()
     folium.GeoJson(gdf_bairro,
                    name=bairro,
-                   style_function=lambda x, cor=cor: {'fillColor': cor, 'color': cor, 'weight': 1}).add_child(mapa)
+                   style_function=lambda x, cor=cor: {'fillColor': cor, 'color': cor, 'weight': 1}).add_to(mapa)
 
 # Categorias de anos
 years = ['1950', '1960', '1970', '1980 e 1990']
@@ -60,7 +60,7 @@ for year in years:
     marker_layer.add_to(mapa)
 
 # Adicione a camada de marcação ao mapa
-folium.LayerControl().add_to(mapa)
+#folium.LayerControl().add_to(mapa)
 
 st.title("Zélia Matos")
 st.write("Mapa")
