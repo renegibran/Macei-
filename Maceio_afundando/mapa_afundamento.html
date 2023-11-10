@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_20dd84255b371e0ccef73b7fe71b68ce {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_20dd84255b371e0ccef73b7fe71b68ce" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_20dd84255b371e0ccef73b7fe71b68ce = L.map(
+                "map_20dd84255b371e0ccef73b7fe71b68ce",
+                {
+                    center: [-9.6, -35.72],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11.7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c4547baf18104e61f46ca93e3f05a8b7 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+    
+            var feature_group_d9c12ceb56355039a42788265579786d = L.featureGroup(
+                {}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+    
+            var marker_a383a412552a53b17e37d56003efd2fe = L.marker(
+                [-9.6266369, -35.7514829],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_6ae596cdfacde64fa766a4a2674b9697 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a383a412552a53b17e37d56003efd2fe.setIcon(icon_6ae596cdfacde64fa766a4a2674b9697);
+        
+    
+        var popup_8a6674c99e070353a32089e764672263 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16bc2dab1cff14dc48c8de2f61dc5994 = $(`<div id="html_16bc2dab1cff14dc48c8de2f61dc5994" style="width: 100.0%; height: 100.0%;">Complexo Educacional Nossa Senhora do Bom Conselho</div>`)[0];
+                popup_8a6674c99e070353a32089e764672263.setContent(html_16bc2dab1cff14dc48c8de2f61dc5994);
+            
+        
+
+        marker_a383a412552a53b17e37d56003efd2fe.bindPopup(popup_8a6674c99e070353a32089e764672263)
+        ;
+
+        
+    
+    
+            marker_a383a412552a53b17e37d56003efd2fe.bindTooltip(
+                `<div>
+                     0 - Complexo Educacional Nossa Senhora do Bom Conselho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ec76a1dd50cbbf981ac39652947abb7 = L.marker(
+                [-9.6281264, -35.749862],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_7b25245537ea5644d84b07009066042b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ec76a1dd50cbbf981ac39652947abb7.setIcon(icon_7b25245537ea5644d84b07009066042b);
+        
+    
+        var popup_ea303f3a05db4623871a3e868f776e5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e34fab4426b825f974db000fa70cc8c7 = $(`<div id="html_e34fab4426b825f974db000fa70cc8c7" style="width: 100.0%; height: 100.0%;">Casario na R. Passos de Miranda</div>`)[0];
+                popup_ea303f3a05db4623871a3e868f776e5b.setContent(html_e34fab4426b825f974db000fa70cc8c7);
+            
+        
+
+        marker_7ec76a1dd50cbbf981ac39652947abb7.bindPopup(popup_ea303f3a05db4623871a3e868f776e5b)
+        ;
+
+        
+    
+    
+            marker_7ec76a1dd50cbbf981ac39652947abb7.bindTooltip(
+                `<div>
+                     1 - Casario na R. Passos de Miranda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28a1fadd207753fbd1759504f8b22043 = L.marker(
+                [-9.6274098, -35.7503287],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_8445ec63c93dda89eb520b104297b5b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28a1fadd207753fbd1759504f8b22043.setIcon(icon_8445ec63c93dda89eb520b104297b5b4);
+        
+    
+        var popup_865498f6630d9823e7f020dd885e5e81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c8817a5f4307fb59f446b03ab1466e3 = $(`<div id="html_9c8817a5f4307fb59f446b03ab1466e3" style="width: 100.0%; height: 100.0%;">Exemplar de casa com platibanda </div>`)[0];
+                popup_865498f6630d9823e7f020dd885e5e81.setContent(html_9c8817a5f4307fb59f446b03ab1466e3);
+            
+        
+
+        marker_28a1fadd207753fbd1759504f8b22043.bindPopup(popup_865498f6630d9823e7f020dd885e5e81)
+        ;
+
+        
+    
+    
+            marker_28a1fadd207753fbd1759504f8b22043.bindTooltip(
+                `<div>
+                     2 - Exemplar de casa com platibanda 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae17f41ecdb93bab7e6102be48b70ea7 = L.marker(
+                [-9.6271804, -35.750407],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_f7df74dfd57796f2c072a19a07a87463 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae17f41ecdb93bab7e6102be48b70ea7.setIcon(icon_f7df74dfd57796f2c072a19a07a87463);
+        
+    
+        var popup_b6b5da90ec4eeecf571de54ddcba6d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1181dfd2def40f4e64cb18a3045c6b29 = $(`<div id="html_1181dfd2def40f4e64cb18a3045c6b29" style="width: 100.0%; height: 100.0%;">Matriz de Santo Antônio de Pádua </div>`)[0];
+                popup_b6b5da90ec4eeecf571de54ddcba6d59.setContent(html_1181dfd2def40f4e64cb18a3045c6b29);
+            
+        
+
+        marker_ae17f41ecdb93bab7e6102be48b70ea7.bindPopup(popup_b6b5da90ec4eeecf571de54ddcba6d59)
+        ;
+
+        
+    
+    
+            marker_ae17f41ecdb93bab7e6102be48b70ea7.bindTooltip(
+                `<div>
+                     3 - Matriz de Santo Antônio de Pádua 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e29c05198bc19209190fae4c6ba6905 = L.marker(
+                [-9.6269894, -35.7506279],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_3d0d51073230589158e3b2f585461d74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e29c05198bc19209190fae4c6ba6905.setIcon(icon_3d0d51073230589158e3b2f585461d74);
+        
+    
+        var popup_5f3c02947b8788c3635649ff271aaaea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d02a3abb4f939f649617a9b98464aada = $(`<div id="html_d02a3abb4f939f649617a9b98464aada" style="width: 100.0%; height: 100.0%;">Solar Nunes Leite</div>`)[0];
+                popup_5f3c02947b8788c3635649ff271aaaea.setContent(html_d02a3abb4f939f649617a9b98464aada);
+            
+        
+
+        marker_1e29c05198bc19209190fae4c6ba6905.bindPopup(popup_5f3c02947b8788c3635649ff271aaaea)
+        ;
+
+        
+    
+    
+            marker_1e29c05198bc19209190fae4c6ba6905.bindTooltip(
+                `<div>
+                     4 - Solar Nunes Leite
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cb4c3bff5180dd78b6394dbf238b0be = L.marker(
+                [-9.6275451, -35.7504162],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_c946f39430e24d9c9296c257ff422f18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0cb4c3bff5180dd78b6394dbf238b0be.setIcon(icon_c946f39430e24d9c9296c257ff422f18);
+        
+    
+        var popup_d058ddb9c95b1b4b4c44845428d7ef5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a1fd960893d731fa93d793bb05c8f6 = $(`<div id="html_a6a1fd960893d731fa93d793bb05c8f6" style="width: 100.0%; height: 100.0%;">Casa do Vereador Nicanor Fidelis de Moura</div>`)[0];
+                popup_d058ddb9c95b1b4b4c44845428d7ef5f.setContent(html_a6a1fd960893d731fa93d793bb05c8f6);
+            
+        
+
+        marker_0cb4c3bff5180dd78b6394dbf238b0be.bindPopup(popup_d058ddb9c95b1b4b4c44845428d7ef5f)
+        ;
+
+        
+    
+    
+            marker_0cb4c3bff5180dd78b6394dbf238b0be.bindTooltip(
+                `<div>
+                     5 - Casa do Vereador Nicanor Fidelis de Moura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acb9f3400897d1f63760517331c129b5 = L.marker(
+                [-9.6275714, -35.7504797],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_851a26b0731f18c949a92d3f9ddbd4fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_acb9f3400897d1f63760517331c129b5.setIcon(icon_851a26b0731f18c949a92d3f9ddbd4fe);
+        
+    
+        var popup_68a0b48a94e879471c0b8f58d8b09e3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d9362b5525087d989ccc578099571df = $(`<div id="html_1d9362b5525087d989ccc578099571df" style="width: 100.0%; height: 100.0%;">Casa na Praça Lucena Maranhão</div>`)[0];
+                popup_68a0b48a94e879471c0b8f58d8b09e3f.setContent(html_1d9362b5525087d989ccc578099571df);
+            
+        
+
+        marker_acb9f3400897d1f63760517331c129b5.bindPopup(popup_68a0b48a94e879471c0b8f58d8b09e3f)
+        ;
+
+        
+    
+    
+            marker_acb9f3400897d1f63760517331c129b5.bindTooltip(
+                `<div>
+                     6 - Casa na Praça Lucena Maranhão
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc69571ecd17722695b5d100e53d6a6e = L.marker(
+                [-9.6325167, -35.749498],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_baae47e1fd1c9f99a00288304dab5596 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc69571ecd17722695b5d100e53d6a6e.setIcon(icon_baae47e1fd1c9f99a00288304dab5596);
+        
+    
+        var popup_f57dc7f3bf6e59f3021842e7b3cd4ccb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d2039058f90a98fea01d9613b85626f = $(`<div id="html_9d2039058f90a98fea01d9613b85626f" style="width: 100.0%; height: 100.0%;">Antiga Vila Lilota, posterior Casa de Saúde Dr. José Lopes de Mendonça (UEP 56)</div>`)[0];
+                popup_f57dc7f3bf6e59f3021842e7b3cd4ccb.setContent(html_9d2039058f90a98fea01d9613b85626f);
+            
+        
+
+        marker_cc69571ecd17722695b5d100e53d6a6e.bindPopup(popup_f57dc7f3bf6e59f3021842e7b3cd4ccb)
+        ;
+
+        
+    
+    
+            marker_cc69571ecd17722695b5d100e53d6a6e.bindTooltip(
+                `<div>
+                     7 - Antiga Vila Lilota, posterior Casa de Saúde Dr. José Lopes de Mendonça (UEP 56)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_539c6e8bcada05203d5c6c4bda827cd6 = L.marker(
+                [-9.6279608, -35.7510834],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_5f0489ca5e5855002de82e2c20760539 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_539c6e8bcada05203d5c6c4bda827cd6.setIcon(icon_5f0489ca5e5855002de82e2c20760539);
+        
+    
+        var popup_f4d8972c0e130fa905125d4a738d636e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc761a50118582cfbf6ddb34b3e95298 = $(`<div id="html_fc761a50118582cfbf6ddb34b3e95298" style="width: 100.0%; height: 100.0%;">Antiga residência da Família Nunes Leite, posterior Escola Vereador Braga Neto</div>`)[0];
+                popup_f4d8972c0e130fa905125d4a738d636e.setContent(html_fc761a50118582cfbf6ddb34b3e95298);
+            
+        
+
+        marker_539c6e8bcada05203d5c6c4bda827cd6.bindPopup(popup_f4d8972c0e130fa905125d4a738d636e)
+        ;
+
+        
+    
+    
+            marker_539c6e8bcada05203d5c6c4bda827cd6.bindTooltip(
+                `<div>
+                     8 - Antiga residência da Família Nunes Leite, posterior Escola Vereador Braga Neto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d31a61de4f98068f6633015776ab5e4f = L.marker(
+                [-9.6246589, -35.7522257],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_58d552ea2674bf9e79068c7c2a5e230d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d31a61de4f98068f6633015776ab5e4f.setIcon(icon_58d552ea2674bf9e79068c7c2a5e230d);
+        
+    
+        var popup_f5aea5e052a24f29153c222b169eb81e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e19a7feb7a99ca81594bba51bd8e2c4 = $(`<div id="html_3e19a7feb7a99ca81594bba51bd8e2c4" style="width: 100.0%; height: 100.0%;">Comércio com platibanda</div>`)[0];
+                popup_f5aea5e052a24f29153c222b169eb81e.setContent(html_3e19a7feb7a99ca81594bba51bd8e2c4);
+            
+        
+
+        marker_d31a61de4f98068f6633015776ab5e4f.bindPopup(popup_f5aea5e052a24f29153c222b169eb81e)
+        ;
+
+        
+    
+    
+            marker_d31a61de4f98068f6633015776ab5e4f.bindTooltip(
+                `<div>
+                     9 - Comércio com platibanda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9ba404a18933e17e482ac3e7b26da0b = L.marker(
+                [-9.6288987, -35.7504526],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_b81201d57ff4e3e0e2961212448b7d8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e9ba404a18933e17e482ac3e7b26da0b.setIcon(icon_b81201d57ff4e3e0e2961212448b7d8c);
+        
+    
+        var popup_049213142c1c58b76f5cfc2999be9ebe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e8c7d1aab6a6ba41defa488c187a30a = $(`<div id="html_6e8c7d1aab6a6ba41defa488c187a30a" style="width: 100.0%; height: 100.0%;">Casas Gêmeas</div>`)[0];
+                popup_049213142c1c58b76f5cfc2999be9ebe.setContent(html_6e8c7d1aab6a6ba41defa488c187a30a);
+            
+        
+
+        marker_e9ba404a18933e17e482ac3e7b26da0b.bindPopup(popup_049213142c1c58b76f5cfc2999be9ebe)
+        ;
+
+        
+    
+    
+            marker_e9ba404a18933e17e482ac3e7b26da0b.bindTooltip(
+                `<div>
+                     10 - Casas Gêmeas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f40f931e100e38503bf4e42c2eba070 = L.marker(
+                [-9.6289891, -35.7506996],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_e35fd219810ac4d9f4579bee1e63a292 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f40f931e100e38503bf4e42c2eba070.setIcon(icon_e35fd219810ac4d9f4579bee1e63a292);
+        
+    
+        var popup_9ab98dabfa95ea05517b0555586a230e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb35c875d63d7d63276b4d08a9b1ec58 = $(`<div id="html_fb35c875d63d7d63276b4d08a9b1ec58" style="width: 100.0%; height: 100.0%;">Casa de Saúde Miguel Couto</div>`)[0];
+                popup_9ab98dabfa95ea05517b0555586a230e.setContent(html_fb35c875d63d7d63276b4d08a9b1ec58);
+            
+        
+
+        marker_9f40f931e100e38503bf4e42c2eba070.bindPopup(popup_9ab98dabfa95ea05517b0555586a230e)
+        ;
+
+        
+    
+    
+            marker_9f40f931e100e38503bf4e42c2eba070.bindTooltip(
+                `<div>
+                     11 - Casa de Saúde Miguel Couto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ab85411efe769d14473363557475bb2 = L.marker(
+                [-9.6282488, -35.7500817],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_16310a381b3006fe3801c687e9cb3716 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ab85411efe769d14473363557475bb2.setIcon(icon_16310a381b3006fe3801c687e9cb3716);
+        
+    
+        var popup_dad9bbacd39f5c25f8fe4c8eec94dfd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d9c0cbb37442b79d49e24e137223a7c = $(`<div id="html_2d9c0cbb37442b79d49e24e137223a7c" style="width: 100.0%; height: 100.0%;">Casa com platibanda eclética e esquadrias coloniais</div>`)[0];
+                popup_dad9bbacd39f5c25f8fe4c8eec94dfd2.setContent(html_2d9c0cbb37442b79d49e24e137223a7c);
+            
+        
+
+        marker_1ab85411efe769d14473363557475bb2.bindPopup(popup_dad9bbacd39f5c25f8fe4c8eec94dfd2)
+        ;
+
+        
+    
+    
+            marker_1ab85411efe769d14473363557475bb2.bindTooltip(
+                `<div>
+                     12 - Casa com platibanda eclética e esquadrias coloniais
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9fce36e8ae745c4299bbc837effff94 = L.marker(
+                [-9.6246945, -35.7535637],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_a93ee37fe5ab08284c7730cc28602337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9fce36e8ae745c4299bbc837effff94.setIcon(icon_a93ee37fe5ab08284c7730cc28602337);
+        
+    
+        var popup_4f1689ca5830b7123d5e4e6e50a9d95e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cad27fc22b64f5ff11db8b4adc7df88a = $(`<div id="html_cad27fc22b64f5ff11db8b4adc7df88a" style="width: 100.0%; height: 100.0%;">Estação Bebedouro</div>`)[0];
+                popup_4f1689ca5830b7123d5e4e6e50a9d95e.setContent(html_cad27fc22b64f5ff11db8b4adc7df88a);
+            
+        
+
+        marker_c9fce36e8ae745c4299bbc837effff94.bindPopup(popup_4f1689ca5830b7123d5e4e6e50a9d95e)
+        ;
+
+        
+    
+    
+            marker_c9fce36e8ae745c4299bbc837effff94.bindTooltip(
+                `<div>
+                     13 - Estação Bebedouro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61abfa50ef7bfa4f5ac3cb193bbd12c9 = L.marker(
+                [-9.6272002, -35.7465059],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_69609e41612d8eab657fa597c6bef0f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_61abfa50ef7bfa4f5ac3cb193bbd12c9.setIcon(icon_69609e41612d8eab657fa597c6bef0f5);
+        
+    
+        var popup_471d137cd5dc79c7c42962e2c714375c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9de0222763512e8f7edb779266be1772 = $(`<div id="html_9de0222763512e8f7edb779266be1772" style="width: 100.0%; height: 100.0%;">Cemitério Público Santo Antônio</div>`)[0];
+                popup_471d137cd5dc79c7c42962e2c714375c.setContent(html_9de0222763512e8f7edb779266be1772);
+            
+        
+
+        marker_61abfa50ef7bfa4f5ac3cb193bbd12c9.bindPopup(popup_471d137cd5dc79c7c42962e2c714375c)
+        ;
+
+        
+    
+    
+            marker_61abfa50ef7bfa4f5ac3cb193bbd12c9.bindTooltip(
+                `<div>
+                     14 - Cemitério Público Santo Antônio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb1fb727f7878654ddcce2d076ed1044 = L.marker(
+                [-9.6277497, -35.7510279],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_f6ce1259006278b6c7738f9fdfa56869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb1fb727f7878654ddcce2d076ed1044.setIcon(icon_f6ce1259006278b6c7738f9fdfa56869);
+        
+    
+        var popup_50b0c2d939203459788ba0902e5c36f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6f65b6e3781f326c706a11b20f632f3 = $(`<div id="html_c6f65b6e3781f326c706a11b20f632f3" style="width: 100.0%; height: 100.0%;">Casa com fachada neocolonial</div>`)[0];
+                popup_50b0c2d939203459788ba0902e5c36f1.setContent(html_c6f65b6e3781f326c706a11b20f632f3);
+            
+        
+
+        marker_cb1fb727f7878654ddcce2d076ed1044.bindPopup(popup_50b0c2d939203459788ba0902e5c36f1)
+        ;
+
+        
+    
+    
+            marker_cb1fb727f7878654ddcce2d076ed1044.bindTooltip(
+                `<div>
+                     19 - Casa com fachada neocolonial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa4b5d2f7b078f3d4738bef0376b6348 = L.marker(
+                [-9.6276069, -35.7510865],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_11fc1743251e3efa7e4eecc876c82914 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fa4b5d2f7b078f3d4738bef0376b6348.setIcon(icon_11fc1743251e3efa7e4eecc876c82914);
+        
+    
+        var popup_bc06392c11f22d58473371e500b71aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_878398af6d4432946277ba2a39360d42 = $(`<div id="html_878398af6d4432946277ba2a39360d42" style="width: 100.0%; height: 100.0%;">Exemplar de residência neocolonial com platibanda Art Déco</div>`)[0];
+                popup_bc06392c11f22d58473371e500b71aa0.setContent(html_878398af6d4432946277ba2a39360d42);
+            
+        
+
+        marker_fa4b5d2f7b078f3d4738bef0376b6348.bindPopup(popup_bc06392c11f22d58473371e500b71aa0)
+        ;
+
+        
+    
+    
+            marker_fa4b5d2f7b078f3d4738bef0376b6348.bindTooltip(
+                `<div>
+                     20 - Exemplar de residência neocolonial com platibanda Art Déco
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f4eeeee0c338b270db01bb640cd03ce = L.marker(
+                [-9.6215572, -35.7494294],
+                {}
+            ).addTo(feature_group_d9c12ceb56355039a42788265579786d);
+        
+    
+            var icon_50c23108c15e4a66155448f49fab6e69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f4eeeee0c338b270db01bb640cd03ce.setIcon(icon_50c23108c15e4a66155448f49fab6e69);
+        
+    
+        var popup_87a0258db2a3c11e17eb3b74d115e604 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ad89852c18c8f0af6d53e5fd9468648 = $(`<div id="html_7ad89852c18c8f0af6d53e5fd9468648" style="width: 100.0%; height: 100.0%;">CRAS Centro de Referência de Assistência Social Bebedouro </div>`)[0];
+                popup_87a0258db2a3c11e17eb3b74d115e604.setContent(html_7ad89852c18c8f0af6d53e5fd9468648);
+            
+        
+
+        marker_8f4eeeee0c338b270db01bb640cd03ce.bindPopup(popup_87a0258db2a3c11e17eb3b74d115e604)
+        ;
+
+        
+    
+    
+            marker_8f4eeeee0c338b270db01bb640cd03ce.bindTooltip(
+                `<div>
+                     21 - CRAS Centro de Referência de Assistência Social Bebedouro 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_f33e053e3202635aacacead121145a66 = L.featureGroup(
+                {}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+    
+            var marker_2b6adc2d06509da590537f40680d79a4 = L.marker(
+                [-9.6243779, -35.7522138],
+                {}
+            ).addTo(feature_group_f33e053e3202635aacacead121145a66);
+        
+    
+            var icon_d6bfbb91fa12cd14522b097ee60fb072 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b6adc2d06509da590537f40680d79a4.setIcon(icon_d6bfbb91fa12cd14522b097ee60fb072);
+        
+    
+        var popup_85c9bcbcf031e7e68cb9d9d2c0e6e0b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bac2536276b21c4262bd4f1083249ea1 = $(`<div id="html_bac2536276b21c4262bd4f1083249ea1" style="width: 100.0%; height: 100.0%;">Colégio Santa Amélia</div>`)[0];
+                popup_85c9bcbcf031e7e68cb9d9d2c0e6e0b0.setContent(html_bac2536276b21c4262bd4f1083249ea1);
+            
+        
+
+        marker_2b6adc2d06509da590537f40680d79a4.bindPopup(popup_85c9bcbcf031e7e68cb9d9d2c0e6e0b0)
+        ;
+
+        
+    
+    
+            marker_2b6adc2d06509da590537f40680d79a4.bindTooltip(
+                `<div>
+                     15 - Colégio Santa Amélia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d03ca5e7e154898ce19ca7882ca31ddb = L.marker(
+                [-9.624471, -35.7524137],
+                {}
+            ).addTo(feature_group_f33e053e3202635aacacead121145a66);
+        
+    
+            var icon_722a1dad03f4c1d52a757c9fbde64996 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d03ca5e7e154898ce19ca7882ca31ddb.setIcon(icon_722a1dad03f4c1d52a757c9fbde64996);
+        
+    
+        var popup_60947a4a1da2e7dd5fb28808b107fa36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe1605166611dcee2fa24df9d9a0fa71 = $(`<div id="html_fe1605166611dcee2fa24df9d9a0fa71" style="width: 100.0%; height: 100.0%;">Casa Colonial</div>`)[0];
+                popup_60947a4a1da2e7dd5fb28808b107fa36.setContent(html_fe1605166611dcee2fa24df9d9a0fa71);
+            
+        
+
+        marker_d03ca5e7e154898ce19ca7882ca31ddb.bindPopup(popup_60947a4a1da2e7dd5fb28808b107fa36)
+        ;
+
+        
+    
+    
+            marker_d03ca5e7e154898ce19ca7882ca31ddb.bindTooltip(
+                `<div>
+                     16 - Casa Colonial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dad2adec8ddb3ccd427464309275395 = L.marker(
+                [-9.6237403, -35.7525709],
+                {}
+            ).addTo(feature_group_f33e053e3202635aacacead121145a66);
+        
+    
+            var icon_4e82b7b168d03b60aa85d533c4ddb558 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9dad2adec8ddb3ccd427464309275395.setIcon(icon_4e82b7b168d03b60aa85d533c4ddb558);
+        
+    
+        var popup_9dbd2ef180a3ecf0d561106f4ae97082 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f948adb63e943ea27b9574e8275eb6c = $(`<div id="html_8f948adb63e943ea27b9574e8275eb6c" style="width: 100.0%; height: 100.0%;">Casa onde nasceu Nise da Silveira</div>`)[0];
+                popup_9dbd2ef180a3ecf0d561106f4ae97082.setContent(html_8f948adb63e943ea27b9574e8275eb6c);
+            
+        
+
+        marker_9dad2adec8ddb3ccd427464309275395.bindPopup(popup_9dbd2ef180a3ecf0d561106f4ae97082)
+        ;
+
+        
+    
+    
+            marker_9dad2adec8ddb3ccd427464309275395.bindTooltip(
+                `<div>
+                     17 - Casa onde nasceu Nise da Silveira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bc76e0d2ad39d830e21a4479b16639b = L.marker(
+                [-9.624021, -35.7526521],
+                {}
+            ).addTo(feature_group_f33e053e3202635aacacead121145a66);
+        
+    
+            var icon_b1b4e024ddb9e444b9d3da1b5e330bcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6bc76e0d2ad39d830e21a4479b16639b.setIcon(icon_b1b4e024ddb9e444b9d3da1b5e330bcc);
+        
+    
+        var popup_637a637a99f468cbb1712261f59ea4eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa7965e3e43ef9310f7755a103c9d81e = $(`<div id="html_fa7965e3e43ef9310f7755a103c9d81e" style="width: 100.0%; height: 100.0%;">Antigo Instituto Prof. Francisco Sales</div>`)[0];
+                popup_637a637a99f468cbb1712261f59ea4eb.setContent(html_fa7965e3e43ef9310f7755a103c9d81e);
+            
+        
+
+        marker_6bc76e0d2ad39d830e21a4479b16639b.bindPopup(popup_637a637a99f468cbb1712261f59ea4eb)
+        ;
+
+        
+    
+    
+            marker_6bc76e0d2ad39d830e21a4479b16639b.bindTooltip(
+                `<div>
+                     18 - Antigo Instituto Prof. Francisco Sales
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_051433f73b98dca0e2fd9ac730c04509 = L.marker(
+                [-9.6231298, -35.7525059],
+                {}
+            ).addTo(feature_group_f33e053e3202635aacacead121145a66);
+        
+    
+            var icon_0731ea99feca76af2eb3afd95705e781 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_051433f73b98dca0e2fd9ac730c04509.setIcon(icon_0731ea99feca76af2eb3afd95705e781);
+        
+    
+        var popup_e6aa5969b69e89fb26a54ad8257ed3fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1839119ca6331a50c2573d32d74d68b = $(`<div id="html_e1839119ca6331a50c2573d32d74d68b" style="width: 100.0%; height: 100.0%;">Igreja Imaculada Conceição</div>`)[0];
+                popup_e6aa5969b69e89fb26a54ad8257ed3fe.setContent(html_e1839119ca6331a50c2573d32d74d68b);
+            
+        
+
+        marker_051433f73b98dca0e2fd9ac730c04509.bindPopup(popup_e6aa5969b69e89fb26a54ad8257ed3fe)
+        ;
+
+        
+    
+    
+            marker_051433f73b98dca0e2fd9ac730c04509.bindTooltip(
+                `<div>
+                     22 - Igreja Imaculada Conceição
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_e07534eb95d0b8ccdf9bf8807e5224d9 = L.featureGroup(
+                {}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+    
+            var marker_2fcb70c1c91875de26d7353898fcf106 = L.marker(
+                [-9.6407257, -35.7453254],
+                {}
+            ).addTo(feature_group_e07534eb95d0b8ccdf9bf8807e5224d9);
+        
+    
+            var icon_c490a85ed564c2a42176d94e26b03f6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2fcb70c1c91875de26d7353898fcf106.setIcon(icon_c490a85ed564c2a42176d94e26b03f6c);
+        
+    
+        var popup_9e665f4fd8762dda97082670a2bb8013 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41841fefb45dc1d767932ae8bf0d47d1 = $(`<div id="html_41841fefb45dc1d767932ae8bf0d47d1" style="width: 100.0%; height: 100.0%;">Antiga Sede do IMA - Instituto do Meio Ambiente </div>`)[0];
+                popup_9e665f4fd8762dda97082670a2bb8013.setContent(html_41841fefb45dc1d767932ae8bf0d47d1);
+            
+        
+
+        marker_2fcb70c1c91875de26d7353898fcf106.bindPopup(popup_9e665f4fd8762dda97082670a2bb8013)
+        ;
+
+        
+    
+    
+            marker_2fcb70c1c91875de26d7353898fcf106.bindTooltip(
+                `<div>
+                     23 - Antiga Sede do IMA - Instituto do Meio Ambiente 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_427b7f1527b772953efd1c79ac86408f = L.marker(
+                [-9.6394976, -35.7460437],
+                {}
+            ).addTo(feature_group_e07534eb95d0b8ccdf9bf8807e5224d9);
+        
+    
+            var icon_2a4f776a1346879eaf8e693e57386f6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_427b7f1527b772953efd1c79ac86408f.setIcon(icon_2a4f776a1346879eaf8e693e57386f6c);
+        
+    
+        var popup_ef140a9d37af014be411256819ce892c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb1cd22da9d81e74c7b8e1734d9fda31 = $(`<div id="html_bb1cd22da9d81e74c7b8e1734d9fda31" style="width: 100.0%; height: 100.0%;">Associação do Magistério (SINTEAL)</div>`)[0];
+                popup_ef140a9d37af014be411256819ce892c.setContent(html_bb1cd22da9d81e74c7b8e1734d9fda31);
+            
+        
+
+        marker_427b7f1527b772953efd1c79ac86408f.bindPopup(popup_ef140a9d37af014be411256819ce892c)
+        ;
+
+        
+    
+    
+            marker_427b7f1527b772953efd1c79ac86408f.bindTooltip(
+                `<div>
+                     24 - Associação do Magistério (SINTEAL)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_2aca1cf2830076a6151935250e185105 = L.featureGroup(
+                {}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+    
+            var marker_df33f5497ea41b23d722d7425cde2939 = L.marker(
+                [-9.6480744, -35.742974],
+                {}
+            ).addTo(feature_group_2aca1cf2830076a6151935250e185105);
+        
+    
+            var icon_d1ab1c0e82a8dfe4427b1a6b9151e66f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_df33f5497ea41b23d722d7425cde2939.setIcon(icon_d1ab1c0e82a8dfe4427b1a6b9151e66f);
+        
+    
+        var popup_95ac491859087cf28343a9c1ae52b057 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e50158755c7e02119b2123349569d78 = $(`<div id="html_6e50158755c7e02119b2123349569d78" style="width: 100.0%; height: 100.0%;">Igreja Nossa Senhora do Bom Parto </div>`)[0];
+                popup_95ac491859087cf28343a9c1ae52b057.setContent(html_6e50158755c7e02119b2123349569d78);
+            
+        
+
+        marker_df33f5497ea41b23d722d7425cde2939.bindPopup(popup_95ac491859087cf28343a9c1ae52b057)
+        ;
+
+        
+    
+    
+            marker_df33f5497ea41b23d722d7425cde2939.bindTooltip(
+                `<div>
+                     25 - Igreja Nossa Senhora do Bom Parto 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8d5689d53fc27d4d6316fc6b23425ae = L.marker(
+                [-9.6504905, -35.7424225],
+                {}
+            ).addTo(feature_group_2aca1cf2830076a6151935250e185105);
+        
+    
+            var icon_0c1573c29238cec631c987d3f748aaac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a8d5689d53fc27d4d6316fc6b23425ae.setIcon(icon_0c1573c29238cec631c987d3f748aaac);
+        
+    
+        var popup_82fdc94ddbd982da9c6463f481f8eee1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58d6a70f8e8f797e7ec832fc641ae65a = $(`<div id="html_58d6a70f8e8f797e7ec832fc641ae65a" style="width: 100.0%; height: 100.0%;">Vila Operária da Antiga Fábrica Alexandria (UEP 53)</div>`)[0];
+                popup_82fdc94ddbd982da9c6463f481f8eee1.setContent(html_58d6a70f8e8f797e7ec832fc641ae65a);
+            
+        
+
+        marker_a8d5689d53fc27d4d6316fc6b23425ae.bindPopup(popup_82fdc94ddbd982da9c6463f481f8eee1)
+        ;
+
+        
+    
+    
+            marker_a8d5689d53fc27d4d6316fc6b23425ae.bindTooltip(
+                `<div>
+                     26 - Vila Operária da Antiga Fábrica Alexandria (UEP 53)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_edcccc2132c9f795ee6a5955f506c4fb = L.featureGroup(
+                {}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+    
+            var marker_36866f4268b44b84def95ae0de20773f = L.marker(
+                [-9.6294755, -35.7413811],
+                {}
+            ).addTo(feature_group_edcccc2132c9f795ee6a5955f506c4fb);
+        
+    
+            var icon_71dc2bf9b9c4e83edc5f2a827cb47746 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_36866f4268b44b84def95ae0de20773f.setIcon(icon_71dc2bf9b9c4e83edc5f2a827cb47746);
+        
+    
+        var popup_5e54d4980900d9e5717c4a9d3269f06b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_058b8300fb011183471483511b148835 = $(`<div id="html_058b8300fb011183471483511b148835" style="width: 100.0%; height: 100.0%;">Casa do Engenheiro Marcial Coelho</div>`)[0];
+                popup_5e54d4980900d9e5717c4a9d3269f06b.setContent(html_058b8300fb011183471483511b148835);
+            
+        
+
+        marker_36866f4268b44b84def95ae0de20773f.bindPopup(popup_5e54d4980900d9e5717c4a9d3269f06b)
+        ;
+
+        
+    
+    
+            marker_36866f4268b44b84def95ae0de20773f.bindTooltip(
+                `<div>
+                     27 - Casa do Engenheiro Marcial Coelho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7997d8def7db60159364248898659bf = L.marker(
+                [-9.635993, -35.7448251],
+                {}
+            ).addTo(feature_group_edcccc2132c9f795ee6a5955f506c4fb);
+        
+    
+            var icon_f3181fe9322ce372632964f9f39c03f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d7997d8def7db60159364248898659bf.setIcon(icon_f3181fe9322ce372632964f9f39c03f3);
+        
+    
+        var popup_758f8c0c6876a4ac0f81d192e07a0f33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f4a71290d112946372813621f4b6ea4 = $(`<div id="html_5f4a71290d112946372813621f4b6ea4" style="width: 100.0%; height: 100.0%;">Igreja Matriz do Menino Jesus de PragaR. Prof. Mario </div>`)[0];
+                popup_758f8c0c6876a4ac0f81d192e07a0f33.setContent(html_5f4a71290d112946372813621f4b6ea4);
+            
+        
+
+        marker_d7997d8def7db60159364248898659bf.bindPopup(popup_758f8c0c6876a4ac0f81d192e07a0f33)
+        ;
+
+        
+    
+    
+            marker_d7997d8def7db60159364248898659bf.bindTooltip(
+                `<div>
+                     28 - Igreja Matriz do Menino Jesus de PragaR. Prof. Mario 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10fbab136e6cb5d95e4f95a89abf78de = L.marker(
+                [-9.6392198, -35.7409783],
+                {}
+            ).addTo(feature_group_edcccc2132c9f795ee6a5955f506c4fb);
+        
+    
+            var icon_5bca643d172809d3dbe51881ddc08843 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_10fbab136e6cb5d95e4f95a89abf78de.setIcon(icon_5bca643d172809d3dbe51881ddc08843);
+        
+    
+        var popup_332db249e62c721331259c940b09f205 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75ba8c8fd56fcf6804a3c4a03514280f = $(`<div id="html_75ba8c8fd56fcf6804a3c4a03514280f" style="width: 100.0%; height: 100.0%;">Igreja Batista do Pinheiro </div>`)[0];
+                popup_332db249e62c721331259c940b09f205.setContent(html_75ba8c8fd56fcf6804a3c4a03514280f);
+            
+        
+
+        marker_10fbab136e6cb5d95e4f95a89abf78de.bindPopup(popup_332db249e62c721331259c940b09f205)
+        ;
+
+        
+    
+    
+            marker_10fbab136e6cb5d95e4f95a89abf78de.bindTooltip(
+                `<div>
+                     29 - Igreja Batista do Pinheiro 
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_4c0f99632b082e383a771ec217a77f83 = L.featureGroup(
+                {}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+    
+            var marker_780ba0d6381d6497115f4a20ac443181 = L.marker(
+                [-9.6387613, -35.7359782],
+                {}
+            ).addTo(feature_group_4c0f99632b082e383a771ec217a77f83);
+        
+    
+            var icon_22559704529d3f5ec22fa4b1dec92043 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_780ba0d6381d6497115f4a20ac443181.setIcon(icon_22559704529d3f5ec22fa4b1dec92043);
+        
+    
+        var popup_fc542abaa1565d03c32fdc410f25bb33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65a4c21e3603d72b48f3521eadb7ae14 = $(`<div id="html_65a4c21e3603d72b48f3521eadb7ae14" style="width: 100.0%; height: 100.0%;">Complexo CEPA</div>`)[0];
+                popup_fc542abaa1565d03c32fdc410f25bb33.setContent(html_65a4c21e3603d72b48f3521eadb7ae14);
+            
+        
+
+        marker_780ba0d6381d6497115f4a20ac443181.bindPopup(popup_fc542abaa1565d03c32fdc410f25bb33)
+        ;
+
+        
+    
+    
+            marker_780ba0d6381d6497115f4a20ac443181.bindTooltip(
+                `<div>
+                     30 - Complexo CEPA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_d32ad0c7cff8e00bdb1ef858f56bd4a6 = L.featureGroup(
+                {}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+    
+            var marker_49392c4cdcce15cc5d69987d9d4d7bed = L.marker(
+                [-9.5898646, -35.7843798],
+                {}
+            ).addTo(feature_group_d32ad0c7cff8e00bdb1ef858f56bd4a6);
+        
+    
+            var icon_8183fdd6f4736daf19f10098fd78cc73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brown", "prefix": "glyphicon"}
+            );
+            marker_49392c4cdcce15cc5d69987d9d4d7bed.setIcon(icon_8183fdd6f4736daf19f10098fd78cc73);
+        
+    
+        var popup_0f1f02f55a4982459d3135b75a3c7175 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e34cf22e410581e5ea000af653abacba = $(`<div id="html_e34cf22e410581e5ea000af653abacba" style="width: 100.0%; height: 100.0%;">Igreja São José Operário</div>`)[0];
+                popup_0f1f02f55a4982459d3135b75a3c7175.setContent(html_e34cf22e410581e5ea000af653abacba);
+            
+        
+
+        marker_49392c4cdcce15cc5d69987d9d4d7bed.bindPopup(popup_0f1f02f55a4982459d3135b75a3c7175)
+        ;
+
+        
+    
+    
+            marker_49392c4cdcce15cc5d69987d9d4d7bed.bindTooltip(
+                `<div>
+                     31 - Igreja São José Operário
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97ff86bdf39b182b5486a8726843402b = L.marker(
+                [-9.5892554, -35.7852914],
+                {}
+            ).addTo(feature_group_d32ad0c7cff8e00bdb1ef858f56bd4a6);
+        
+    
+            var icon_c836460bb71aac98774e9137fcca0504 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brown", "prefix": "glyphicon"}
+            );
+            marker_97ff86bdf39b182b5486a8726843402b.setIcon(icon_c836460bb71aac98774e9137fcca0504);
+        
+    
+        var popup_ab480700f5345ff2809bee8b9e0708f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_caeb88b9b50365e32f480639cea983cd = $(`<div id="html_caeb88b9b50365e32f480639cea983cd" style="width: 100.0%; height: 100.0%;">Antiga Fábrica Carmen em Fernão Velho</div>`)[0];
+                popup_ab480700f5345ff2809bee8b9e0708f0.setContent(html_caeb88b9b50365e32f480639cea983cd);
+            
+        
+
+        marker_97ff86bdf39b182b5486a8726843402b.bindPopup(popup_ab480700f5345ff2809bee8b9e0708f0)
+        ;
+
+        
+    
+    
+            marker_97ff86bdf39b182b5486a8726843402b.bindTooltip(
+                `<div>
+                     32 - Antiga Fábrica Carmen em Fernão Velho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db3f465beb5cb294df50a018ff3012b3 = L.marker(
+                [-9.5909394, -35.7846258],
+                {}
+            ).addTo(feature_group_d32ad0c7cff8e00bdb1ef858f56bd4a6);
+        
+    
+            var icon_3165f423013225f755bcc45bfbed6ed9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brown", "prefix": "glyphicon"}
+            );
+            marker_db3f465beb5cb294df50a018ff3012b3.setIcon(icon_3165f423013225f755bcc45bfbed6ed9);
+        
+    
+        var popup_3e9b171913beca1688373ef793100998 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_914f2d0b9ac72a5518e6743d123a68b0 = $(`<div id="html_914f2d0b9ac72a5518e6743d123a68b0" style="width: 100.0%; height: 100.0%;">Casario da Vila Operária da Antiga Fábrica Carmen em Fernão Velho</div>`)[0];
+                popup_3e9b171913beca1688373ef793100998.setContent(html_914f2d0b9ac72a5518e6743d123a68b0);
+            
+        
+
+        marker_db3f465beb5cb294df50a018ff3012b3.bindPopup(popup_3e9b171913beca1688373ef793100998)
+        ;
+
+        
+    
+    
+            marker_db3f465beb5cb294df50a018ff3012b3.bindTooltip(
+                `<div>
+                     34 - Casario da Vila Operária da Antiga Fábrica Carmen em Fernão Velho
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c038ef4ff84667b14ad350421f16065 = L.marker(
+                [-9.5910484, -35.7851308],
+                {}
+            ).addTo(feature_group_d32ad0c7cff8e00bdb1ef858f56bd4a6);
+        
+    
+            var icon_44488d584f8b4bd7a6fcb4177766b493 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brown", "prefix": "glyphicon"}
+            );
+            marker_4c038ef4ff84667b14ad350421f16065.setIcon(icon_44488d584f8b4bd7a6fcb4177766b493);
+        
+    
+        var popup_59cfd4c4cb2b9332fa53195d7100e23e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15aea6d34d27704a5ce18402c414c775 = $(`<div id="html_15aea6d34d27704a5ce18402c414c775" style="width: 100.0%; height: 100.0%;">Casario da Vila Operária da Antiga Fábrica Carmen  </div>`)[0];
+                popup_59cfd4c4cb2b9332fa53195d7100e23e.setContent(html_15aea6d34d27704a5ce18402c414c775);
+            
+        
+
+        marker_4c038ef4ff84667b14ad350421f16065.bindPopup(popup_59cfd4c4cb2b9332fa53195d7100e23e)
+        ;
+
+        
+    
+    
+            marker_4c038ef4ff84667b14ad350421f16065.bindTooltip(
+                `<div>
+                     35 - Casario da Vila Operária da Antiga Fábrica Carmen
+
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_e0c43f4b02c858044ba4b7edadb55691 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_c4547baf18104e61f46ca93e3f05a8b7,
+                },
+                overlays :  {
+                    "Bebedouro" : feature_group_d9c12ceb56355039a42788265579786d,
+                    "Ch\u00e3 de Bebedouro" : feature_group_f33e053e3202635aacacead121145a66,
+                    "Mutange" : feature_group_e07534eb95d0b8ccdf9bf8807e5224d9,
+                    "Bom Parto" : feature_group_2aca1cf2830076a6151935250e185105,
+                    "Pinheiro" : feature_group_edcccc2132c9f795ee6a5955f506c4fb,
+                    "Farol" : feature_group_4c0f99632b082e383a771ec217a77f83,
+                    "Fern\u00e3o Velho" : feature_group_d32ad0c7cff8e00bdb1ef858f56bd4a6,
+                },
+            };
+            L.control.layers(
+                layer_control_e0c43f4b02c858044ba4b7edadb55691.base_layers,
+                layer_control_e0c43f4b02c858044ba4b7edadb55691.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_20dd84255b371e0ccef73b7fe71b68ce);
+        
+</script>
+</html>
