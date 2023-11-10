@@ -50,6 +50,7 @@ bairros = {
 col1, col2 = st.columns(2)
 
 mapa = folium.Map(location=(-9.60, -35.72), zoom_start=12.7, tiles='cartodbpositron')
+folium.LayerControl().add_to(mapa)
 
 info_detalhadas = []
 
@@ -75,7 +76,7 @@ for bairro, cor in bairros.items():
                    name=bairro,
                    style_function=lambda x, cor=cor: {'fillColor': cor, 'color': cor, 'weight': 1}).add_to(mapa)
 
-folium.LayerControl().add_to(mapa)
+
 
 # Coluna direita para o mapa
 st.markdown("## Mapa:")
