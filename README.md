@@ -1,5 +1,3 @@
-# maceio
+# Afundamento Maceió
 
-https://afundamento.streamlit.app/
-
-https://zeliamatos.streamlit.app/
+Dashboard utilizando o streamlit para mostrar os dados de maceió
