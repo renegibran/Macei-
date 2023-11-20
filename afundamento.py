@@ -47,10 +47,10 @@ bairros = {
     'Fernão Velho': 'brown'
 }
 
-col1, col2 = st.columns(2)
+#col1, col2 = st.columns(2)
 
 mapa = folium.Map(location=(-9.60, -35.72), zoom_start=12.7, tiles='cartodbpositron')
-folium.LayerControl().add_to(mapa)
+#folium.LayerControl().add_to(mapa)
 
 info_detalhadas = []
 
