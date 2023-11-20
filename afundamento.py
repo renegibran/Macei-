@@ -80,7 +80,7 @@ for bairro, cor in bairros.items():
 
 # Coluna direita para o mapa
 st.markdown("## Mapa:")
-out = st_folium(mapa, width=1000, height=1000, return_on_hover=True)
+out = st_folium(mapa, width=1000, height=500, return_on_hover=True)
 
 # Barra lateral para as informações
 st.sidebar.markdown("## Informações:")
