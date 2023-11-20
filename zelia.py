@@ -63,7 +63,7 @@ for year in years:
 folium.LayerControl().add_to(mapa)
 
 
-st.title("Zélia Matos")
+st.title("Residências Zélia Maia Nobre")
 st.write("Mapa")
 
 st_data = st_folium(mapa, width=700)
